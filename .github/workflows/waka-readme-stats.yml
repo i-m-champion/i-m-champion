@@ -1,0 +1,26 @@
+name: Waka Readme Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update Readme with Coding Habits
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: anmol098/waka-readme-stats@master
+        with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SHOW_PROFILE_VIEWS: "False"
+          SHOW_SHORT_INFO: "True"
+          SHOW_COMMIT: "True"
+          SHOW_DAYS_OF_WEEK: "True"
+          SHOW_LANGUAGE: "False"
+          SHOW_LANGUAGE_PER_REPO: "True"
+          SHOW_LINES_OF_CODE: "False"
+          SHOW_TOTAL_CODE_TIME: "False"
+          COMMIT_MESSAGE: "chore: update coding habits stats"

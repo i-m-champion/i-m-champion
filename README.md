@@ -119,6 +119,53 @@ motto: "Constantly building, refining, and engineering solutions that matter."
 
 ---
 
+### 📈 GitHub Stats & Coding Habits
+
+<div align="center">
+  <img src="./github-metrics.svg" alt="Ayush's GitHub Metrics" width="100%" />
+</div>
+
+---
+
+### ⏱️ Coding Habits & Activity Breakdown
+
+<!--START_SECTION:waka-->
+```text
+🐱 My GitHub Data
+
+📦 3.15 MB Used in GitHub's Storage
+🏆 712 Contributions in the Year 2026
+🚫 Not Opted to Hire
+📜 4 Public Repositories
+🔑 0 Private Repositories
+
+I'm an Early 🐤
+
+🌞 Morning       12 commits    ██████▒▒▒▒▒▒▒▒    28.57 %
+🌆 Daytime       18 commits    █████████▒▒▒▒▒    42.86 %
+🌃 Evening        8 commits    ████▒▒▒▒▒▒▒▒▒▒    19.05 %
+🌙 Night          4 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    09.52 %
+
+📅 I'm Most Productive on Sunday
+
+Monday            6 commits    ███▒▒▒▒▒▒▒▒▒▒▒    14.29 %
+Tuesday           8 commits    ████▒▒▒▒▒▒▒▒▒▒    19.05 %
+Wednesday         5 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    11.90 %
+Thursday          4 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    09.52 %
+Friday            3 commits    █▒▒▒▒▒▒▒▒▒▒▒▒▒    07.14 %
+Saturday          5 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    11.90 %
+Sunday           11 commits    ██████▒▒▒▒▒▒▒▒    26.19 %
+
+I Mostly Code in HTML & Python
+
+HTML              2 repos       ██████████████    50.00 %
+Python            1 repo        ███████▒▒▒▒▒▒▒    25.00 %
+Markdown          1 repo        ███████▒▒▒▒▒▒▒    25.00 %
+```
+<!--END_SECTION:waka-->
+
+---
+
 ### 🏆 LeetCode & Problem Solving
 
 <div align="center">

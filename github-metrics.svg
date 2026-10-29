@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="400" viewBox="0 0 850 400" fill="none">
+  <defs>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 600; fill: #58a6ff; }
+      .section-hdr { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #58a6ff; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; fill: #c9d1d9; }
+      .muted { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; fill: #8b949e; }
+      .footer-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10px; font-style: italic; fill: #8b949e; text-anchor: end; }
+      .icon { fill: #8b949e; }
+    </style>
+    <clipPath id="avatar-clip">
+      <circle cx="42" cy="42" r="16" />
+    </clipPath>
+  </defs>
+
+  <!-- Background card -->
+  <rect width="850" height="400" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+
+  <!-- User Header (Top-Left) -->
+  <image href="https://avatars.githubusercontent.com/u/197195534?v=4" x="26" y="26" width="32" height="32" clip-path="url(#avatar-clip)" />
+  <circle cx="42" cy="42" r="16" stroke="#30363d" stroke-width="1" fill="none" />
+
+  <text x="70" y="38" class="title">Ayush</text>
+  <text x="70" y="56" class="muted">Joined GitHub 9 months ago</text>
+  <text x="70" y="74" class="muted">Followed by 2 users</text>
+
+  <!-- Top-Right: Contribution grid preview -->
+  <g transform="translate(480, 32)">
+    <rect x="0" y="0" width="11" height="11" rx="2" fill="#39d353" />
+    <rect x="15" y="0" width="11" height="11" rx="2" fill="#26a641" />
+    <rect x="30" y="0" width="11" height="11" rx="2" fill="#006d32" />
+    <rect x="45" y="0" width="11" height="11" rx="2" fill="#39d353" />
+    <rect x="60" y="0" width="11" height="11" rx="2" fill="#39d353" />
+    <rect x="75" y="0" width="11" height="11" rx="2" fill="#26a641" />
+    <rect x="90" y="0" width="11" height="11" rx="2" fill="#39d353" />
+    <rect x="105" y="0" width="11" height="11" rx="2" fill="#161b22" stroke="#30363d" />
+    <rect x="120" y="0" width="11" height="11" rx="2" fill="#161b22" stroke="#30363d" />
+    <rect x="135" y="0" width="11" height="11" rx="2" fill="#161b22" stroke="#30363d" />
+    <rect x="150" y="0" width="11" height="11" rx="2" fill="#39d353" />
+    <rect x="165" y="0" width="11" height="11" rx="2" fill="#39d353" />
+    <rect x="180" y="0" width="11" height="11" rx="2" fill="#161b22" stroke="#30363d" />
+  </g>
+  <text x="480" y="65" class="muted">Contributed to 4 repositories</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="92" x2="820" y2="92" stroke="#21262d" stroke-width="1" />
+
+  <!-- LEFT COLUMN: Activity & Repositories -->
+  <!-- Activity Header -->
+  <g transform="translate(30, 120)">
+    <text x="0" y="0" class="section-hdr">📈 Activity</text>
+    <text x="0" y="24" class="text">⚬ 18 Commits</text>
+    <text x="0" y="44" class="text">⚬ 0 Pull requests reviewed</text>
+    <text x="0" y="64" class="text">⚬ 0 Pull requests opened</text>
+    <text x="0" y="84" class="text">⚬ 0 Issues opened</text>
+    <text x="0" y="104" class="text">⚬ 0 issue comments</text>
+  </g>
+
+  <!-- Repositories Header -->
+  <g transform="translate(30, 255)">
+    <text x="0" y="0" class="section-hdr">📦 4 Repositories</text>
+    <text x="0" y="24" class="text">⚖️ No license preference</text>
+    <text x="0" y="44" class="text">🏷️ 0 Releases</text>
+    <text x="0" y="64" class="text">📦 0 Packages</text>
+    <text x="0" y="84" class="text">💾 3.15 MB used</text>
+  </g>
+
+  <!-- RIGHT COLUMN: Community stats & Network -->
+  <g transform="translate(480, 120)">
+    <text x="0" y="0" class="section-hdr">👥 Community stats</text>
+    <text x="0" y="24" class="text">🏢 Member of 0 organizations</text>
+    <text x="0" y="44" class="text">👤 Following 2 users</text>
+    <text x="0" y="64" class="text">💖 Sponsoring 0 repositories</text>
+    <text x="0" y="84" class="text">⭐ Starred 4 repositories</text>
+    <text x="0" y="104" class="text">👁️ Watching 2 repositories</text>
+  </g>
+
+  <g transform="translate(480, 255)">
+    <text x="0" y="0" class="section-hdr">✨ Network &amp; Sponsorships</text>
+    <text x="0" y="24" class="text">🤍 0 Sponsors</text>
+    <text x="0" y="44" class="text">⭐ 0 Stargazers</text>
+    <text x="0" y="64" class="text">🍴 0 Forkers</text>
+    <text x="0" y="84" class="text">👀 0 Watchers</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="820" y="365" class="footer-text">These metrics do not include all private contributions</text>
+  <text x="820" y="382" class="footer-text">Last updated 29 Oct 2026 (timezone Asia/Kolkata) with lowlighter/metrics@3.34.0</text>
+</svg>
