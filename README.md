@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner & Greeting -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1a1b26,24283b,414868,7aa2f7,bb9af7&height=200&section=header&text=Hi%20there,%20I'm%20Ayush%20👋&fontSize=42&fontColor=c0caf5&animation=fadeIn&fontAlignY=38" width="100%" alt="Header Banner" />
+<img src="./assets/header.svg" width="100%" alt="Hi there, I'm Ayush 👋" />
 
 <!-- Dynamic Animated Typing Subtitle -->
 <a href="https://git.io/typing-svg">
