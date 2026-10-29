@@ -83,6 +83,18 @@ motto: "Constantly building, refining, and engineering solutions that matter."
 
 ---
 
+### 🧊 3D Contribution Activity
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Ayush's 3D Contribution Activity" width="100%" />
+  </picture>
+</div>
+
+---
+
 ### 📊 GitHub Analytics
 
 <div align="center">
