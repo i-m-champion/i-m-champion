@@ -15,7 +15,7 @@
   <a href="mailto:thechampionguy100@gmail.com">
     <img src="https://img.shields.io/badge/Email-thechampionguy100@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_HERE">
+  <a href="https://www.linkedin.com/in/ayush-kumar-3a082542b/">
     <img src="https://img.shields.io/badge/LinkedIn-Ayush-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://twitter.com/YOUR_TWITTER_HERE">
@@ -145,7 +145,7 @@ motto: "Constantly building, refining, and engineering solutions that matter."
 
 [![Email](https://img.shields.io/badge/Gmail-thechampionguy100%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thechampionguy100@gmail.com)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN_HERE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-kumar-3a082542b/)
 &nbsp;
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER_HERE)
 
