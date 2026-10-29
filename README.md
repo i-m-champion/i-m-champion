@@ -21,9 +21,6 @@
   <a href="https://twitter.com/YOUR_TWITTER_HERE">
     <img src="https://img.shields.io/badge/Twitter-Profile-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
-  <a href="https://leetcode.com/u/i-m-champion/">
-    <img src="https://img.shields.io/badge/LeetCode-i--m--champion-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-  </a>
 </p>
 
 <!-- Visitor Counter -->
@@ -95,38 +92,6 @@ motto: "Constantly building, refining, and engineering solutions that matter."
 
 ---
 
-### 📊 GitHub Analytics
-
-<div align="center">
-
-<!-- GitHub Stats & Top Languages -->
-<a href="https://github.com/i-m-champion">
-  <img src="https://github-readme-stats.vercel.app/api?username=i-m-champion&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&bg_color=1a1b26" alt="Ayush's GitHub Stats" height="175" />
-</a>
-&nbsp;
-<a href="https://github.com/i-m-champion">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=i-m-champion&layout=compact&theme=tokyonight&hide_border=true&title_color=7aa2f7&text_color=c0caf5&bg_color=1a1b26" alt="Top Languages" height="175" />
-</a>
-
-<br/><br/>
-
-<!-- Streak Stats -->
-<a href="https://github.com/i-m-champion">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=i-m-champion&theme=tokyonight&hide_border=true&background=1a1b26&ring=7aa2f7&fire=ff9e64&currStreakLabel=7aa2f7" alt="GitHub Streak" />
-</a>
-
-</div>
-
----
-
-### 📈 GitHub Stats & Coding Habits
-
-<div align="center">
-  <img src="./github-metrics.svg" alt="Ayush's GitHub Metrics" width="100%" />
-</div>
-
----
-
 ### ⏱️ Coding Habits & Activity Breakdown
 
 <!--START_SECTION:waka-->
@@ -166,22 +131,20 @@ Python                1 repo    ████▒▒▒▒▒▒▒▒▒▒    25
 
 ---
 
-### 🏆 LeetCode & Problem Solving
+### 🔥 Commit Streak & Activity
 
 <div align="center">
-  <a href="https://leetcode.com/u/i-m-champion/">
-    <img src="https://leetcard.jacoblin.cool/i-m-champion?theme=tokyonight&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" />
+  <a href="https://github.com/i-m-champion">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=i-m-champion&theme=tokyonight&hide_border=false&border_radius=15&border=7aa2f7&stroke=7aa2f7&ring=7dcfff&fire=ff007f&currStreakNum=7dcfff&sideNums=bb9af7&sideLabels=c0caf5&dates=565f89&background=16161e" alt="Ayush's GitHub Streak" width="500" />
   </a>
 </div>
 
 ---
 
-### 📈 Activity Graph
+### 📊 GitHub Stats & Summary
 
 <div align="center">
-  <a href="https://github.com/i-m-champion">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=i-m-champion&theme=tokyo-night&hide_border=true&area=true&bg_color=1a1b26&color=7aa2f7&line=bb9af7&point=7dcfff" alt="Ayush's Contribution Graph" width="95%" />
-  </a>
+  <img src="./github-metrics.svg" alt="Ayush's GitHub Metrics" width="480" />
 </div>
 
 ---
