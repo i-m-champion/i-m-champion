@@ -133,7 +133,7 @@ motto: "Constantly building, refining, and engineering solutions that matter."
 ```text
 🐱 My GitHub Data
 
-📦 701.0 kB Used in GitHub's Storage
+📦 0.0 kB Used in GitHub's Storage
 🏆 14 Contributions in the Year 2026
 🚫 Not Opted to Hire
 📜 4 Public Repositories
@@ -141,19 +141,19 @@ motto: "Constantly building, refining, and engineering solutions that matter."
 
 I'm an Early 🐤
 
-🌞 Morning        16 commits    ███████▒▒▒▒▒▒▒    53.33 %
-🌆 Daytime         4 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    13.33 %
-🌃 Evening         6 commits    ███▒▒▒▒▒▒▒▒▒▒▒    20.00 %
-🌙 Night           4 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    13.33 %
+🌞 Morning        16 commits    ███████▒▒▒▒▒▒▒    51.61 %
+🌆 Daytime         4 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    12.90 %
+🌃 Evening         7 commits    ███▒▒▒▒▒▒▒▒▒▒▒    22.58 %
+🌙 Night           4 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    12.90 %
 
 📅 I'm Most Productive on Thursday
 
-Monday             8 commits    ████▒▒▒▒▒▒▒▒▒▒    26.67 %
-Tuesday            4 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    13.33 %
-Wednesday          3 commits    █▒▒▒▒▒▒▒▒▒▒▒▒▒    10.00 %
-Thursday          10 commits    █████▒▒▒▒▒▒▒▒▒    33.33 %
-Friday              1 commit    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒    03.33 %
-Saturday           4 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    13.33 %
+Monday             8 commits    ████▒▒▒▒▒▒▒▒▒▒    25.81 %
+Tuesday            4 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    12.90 %
+Wednesday          3 commits    █▒▒▒▒▒▒▒▒▒▒▒▒▒    09.68 %
+Thursday          11 commits    █████▒▒▒▒▒▒▒▒▒    35.48 %
+Friday              1 commit    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒    03.23 %
+Saturday           4 commits    ██▒▒▒▒▒▒▒▒▒▒▒▒    12.90 %
 Sunday             0 commits    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒    00.00 %
 
 I Mostly Code in HTML
