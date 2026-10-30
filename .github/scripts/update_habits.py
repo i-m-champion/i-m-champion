@@ -38,7 +38,7 @@ def update_readme():
         storage_str = f"{disk_usage:.1f} kB"
 
     # 2. Total Contributions via GraphQL
-    total_contribs = 14
+    total_contribs = 15
     if token:
         try:
             gql_query = """
@@ -108,51 +108,54 @@ def update_readme():
     if total_commits == 0:
         total_commits = 1
 
-    # Determine most productive day
     most_productive_day = max(day_bins, key=day_bins.get)
-    early_or_night = "Early 🐤" if (time_bins["Morning"] + time_bins["Daytime"]) >= (time_bins["Evening"] + time_bins["Night"]) else "Night Owl 🦉"
+    early_or_night = "Early Bird ⚡" if (time_bins["Morning"] + time_bins["Daytime"]) >= (time_bins["Evening"] + time_bins["Night"]) else "Night Owl 🦉"
 
-    # Languages sorted
     sorted_langs = sorted(langs.items(), key=lambda x: x[1], reverse=True)
     top_lang = sorted_langs[0][0] if sorted_langs else "Code"
 
-    # Build lines
     out = []
-    out.append("🐱 My GitHub Data\n")
-    out.append(f"📦 {storage_str} Used in GitHub's Storage")
-    out.append(f"🏆 {total_contribs} Contributions in the Year 2026")
-    out.append(f"🚫 Not Opted to Hire")
-    out.append(f"📜 {public_repos} Public Repositories")
-    out.append(f"🔑 {private_repos} Private Repositories\n")
+    out.append("┌──[ root@telemetry:~/github_data ]")
+    out.append("│")
+    out.append(f"├── 💾 Storage Allocated:   {storage_str}")
+    out.append(f"├── 🏆 Annual Contributions: {total_contribs} in 2026")
+    out.append(f"├── ⚡ Status:               Active Builder / Hacker Mode")
+    out.append(f"├── 📦 Public Repositories:  {public_repos}")
+    out.append(f"└── 🔒 Private Enclaves:     {private_repos}\n")
 
-    out.append(f"I'm an {early_or_night}\n")
+    out.append(f"┌──[ Productivity Cycle // {early_or_night} ]")
+    out.append("│")
     icons = {"Morning": "🌞", "Daytime": "🌆", "Evening": "🌃", "Night": "🌙"}
     for t in ["Morning", "Daytime", "Evening", "Night"]:
         cnt = time_bins[t]
         pct = (cnt / total_commits) * 100.0
         bar = make_bar(pct)
         c_str = f"{cnt} commit" if cnt == 1 else f"{cnt} commits"
-        out.append(f"{icons[t]} {t:<12} {c_str:>12}    {bar}    {pct:05.2f} %")
+        prefix = "├──" if t != "Night" else "└──"
+        out.append(f"{prefix} {icons[t]} {t:<10} {c_str:>12}   {bar}   {pct:05.2f} %")
 
-    out.append(f"\n📅 I'm Most Productive on {most_productive_day}\n")
+    out.append(f"\n┌──[ Weekly Activity Matrix // Peak on {most_productive_day} ]")
+    out.append("│")
     for d in days_order:
         cnt = day_bins[d]
         pct = (cnt / total_commits) * 100.0
         bar = make_bar(pct)
         c_str = f"{cnt} commit" if cnt == 1 else f"{cnt} commits"
-        out.append(f"{d:<15} {c_str:>12}    {bar}    {pct:05.2f} %")
+        prefix = "├──" if d != "Sunday" else "└──"
+        out.append(f"{prefix} {d:<14} {c_str:>12}   {bar}   {pct:05.2f} %")
 
-    out.append(f"\nI Mostly Code in {top_lang}\n")
+    out.append(f"\n┌──[ Core Technologies // Dominant: {top_lang} ]")
+    out.append("│")
     total_repo_langs = sum(langs.values()) or 1
-    for l_name, l_count in sorted_langs[:5]:
+    for idx, (l_name, l_count) in enumerate(sorted_langs[:5]):
         pct = (l_count / total_repo_langs) * 100.0
         bar = make_bar(pct)
         r_str = f"{l_count} repo" if l_count == 1 else f"{l_count} repos"
-        out.append(f"{l_name:<15} {r_str:>12}    {bar}    {pct:05.2f} %")
+        prefix = "└──" if idx == len(sorted_langs[:5]) - 1 else "├──"
+        out.append(f"{prefix} {l_name:<14} {r_str:>12}   {bar}   {pct:05.2f} %")
 
     result_block = "```text\n" + "\n".join(out) + "\n```"
 
-    # Update README.md
     readme_path = "/Users/yo/.gemini/antigravity/scratch/i-m-champion/README.md"
     if not os.path.exists(readme_path):
         readme_path = "README.md"
@@ -167,8 +170,7 @@ def update_readme():
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(new_content)
 
-    print("Updated README.md successfully with actual GitHub data!")
-    print("\nGenerated Block:\n" + result_block)
+    print("Updated README.md telemetry successfully!")
 
 if __name__ == '__main__':
     update_readme()

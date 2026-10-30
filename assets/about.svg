@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 510" width="100%" height="510">
+  <defs>
+    <style>
+      .heading {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+        font-size: 19px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        fill: #f0fdf4;
+      }
+      .body-text {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+        font-size: 13.5px;
+        font-weight: 400;
+        fill: #d1d5db;
+        letter-spacing: -0.2px;
+      }
+      .term-hdr {
+        font-family: ui-monospace, monospace;
+        font-size: 11px;
+        fill: #4ade80;
+      }
+    </style>
+    <linearGradient id="about-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141714" />
+      <stop offset="50%" stop-color="#111311" />
+      <stop offset="100%" stop-color="#0c0e0c" />
+    </linearGradient>
+    <linearGradient id="about-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22543d" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#00ff66" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#22543d" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="850" height="510" rx="12" fill="url(#about-bg)" />
+  <rect width="850" height="510" rx="12" fill="none" stroke="url(#about-border)" stroke-width="1.2" />
+
+  <!-- Content -->
+  
+    <!-- WHO I AM -->
+    <text x="40" y="50" class="heading">WHO I AM</text>
+<rect x="170" y="38" width="14" height="5" fill="#48bb78" rx="1"/>
+<rect x="173" y="44" width="10" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="187" y="40" width="8" height="7" fill="#2f855a" rx="1"/>
+<rect x="196" y="38" width="12" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="199" y="44" width="8" height="4" fill="#63b3ed" rx="1"/>
+<rect x="209" y="40" width="16" height="7" fill="#4fd1c5" rx="1"/>
+<rect x="228" y="38" width="20" height="5" fill="#63b3ed" rx="1"/>
+<rect x="231" y="44" width="16" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="249" y="40" width="10" height="7" fill="#48bb78" rx="1"/>
+<rect x="260" y="38" width="24" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="263" y="44" width="20" height="4" fill="#ed8936" rx="1"/>
+<rect x="287" y="40" width="12" height="7" fill="#2f855a" rx="1"/>
+<rect x="300" y="38" width="18" height="5" fill="#ed8936" rx="1"/>
+<rect x="303" y="44" width="14" height="4" fill="#38a169" rx="1"/>
+<rect x="319" y="40" width="22" height="7" fill="#dd6b20" rx="1"/>
+<rect x="344" y="38" width="14" height="5" fill="#38a169" rx="1"/>
+<rect x="347" y="44" width="10" height="4" fill="#48bb78" rx="1"/>
+<rect x="359" y="40" width="16" height="7" fill="#48bb78" rx="1"/>
+<rect x="376" y="38" width="26" height="5" fill="#48bb78" rx="1"/>
+<rect x="379" y="44" width="22" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="405" y="40" width="10" height="7" fill="#2f855a" rx="1"/>
+<rect x="416" y="38" width="14" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="419" y="44" width="10" height="4" fill="#63b3ed" rx="1"/>
+<rect x="431" y="40" width="14" height="7" fill="#4fd1c5" rx="1"/>
+<rect x="448" y="38" width="8" height="5" fill="#63b3ed" rx="1"/>
+<rect x="451" y="44" width="4" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="457" y="40" width="12" height="7" fill="#48bb78" rx="1"/>
+<rect x="470" y="38" width="16" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="473" y="44" width="12" height="4" fill="#ed8936" rx="1"/>
+<rect x="489" y="40" width="20" height="7" fill="#2f855a" rx="1"/>
+<rect x="510" y="38" width="10" height="5" fill="#ed8936" rx="1"/>
+<rect x="513" y="44" width="6" height="4" fill="#38a169" rx="1"/>
+<rect x="521" y="40" width="24" height="7" fill="#dd6b20" rx="1"/>
+<rect x="548" y="38" width="12" height="5" fill="#38a169" rx="1"/>
+<rect x="551" y="44" width="8" height="4" fill="#48bb78" rx="1"/>
+<rect x="561" y="40" width="18" height="7" fill="#48bb78" rx="1"/>
+<rect x="580" y="38" width="22" height="5" fill="#48bb78" rx="1"/>
+<rect x="583" y="44" width="18" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="605" y="40" width="14" height="7" fill="#2f855a" rx="1"/>
+<rect x="620" y="38" width="16" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="623" y="44" width="12" height="4" fill="#63b3ed" rx="1"/>
+<rect x="637" y="40" width="26" height="7" fill="#4fd1c5" rx="1"/>
+<rect x="666" y="38" width="10" height="5" fill="#63b3ed" rx="1"/>
+<rect x="669" y="44" width="6" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="677" y="40" width="14" height="7" fill="#48bb78" rx="1"/>
+<rect x="692" y="38" width="14" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="695" y="44" width="10" height="4" fill="#ed8936" rx="1"/>
+<rect x="709" y="40" width="8" height="7" fill="#2f855a" rx="1"/>
+<rect x="718" y="38" width="12" height="5" fill="#ed8936" rx="1"/>
+<rect x="721" y="44" width="8" height="4" fill="#38a169" rx="1"/>
+<rect x="731" y="40" width="16" height="7" fill="#dd6b20" rx="1"/>
+<rect x="750" y="38" width="20" height="5" fill="#38a169" rx="1"/>
+<rect x="753" y="44" width="16" height="4" fill="#48bb78" rx="1"/>
+<rect x="771" y="40" width="10" height="7" fill="#48bb78" rx="1"/>
+<rect x="782" y="38" width="24" height="5" fill="#48bb78" rx="1"/>
+<rect x="785" y="44" width="20" height="4" fill="#e2e8f0" rx="1"/>
+    <text x="40" y="75" class="body-text">Hey, I'm Ayush – an engineer passionate about building tools that simplify people's lives.</text>
+    <text x="40" y="95" class="body-text">I work at the intersection of AI, autonomous agents, and backend systems, and I write about</text>
+    <text x="40" y="115" class="body-text">what I build and learn along the way.</text>
+    <!-- WHAT I DO -->
+    <text x="40" y="163" class="heading">WHAT I DO</text>
+<rect x="180" y="151" width="14" height="5" fill="#38a169" rx="1"/>
+<rect x="183" y="157" width="10" height="4" fill="#48bb78" rx="1"/>
+<rect x="197" y="153" width="8" height="7" fill="#2f855a" rx="1"/>
+<rect x="206" y="151" width="12" height="5" fill="#48bb78" rx="1"/>
+<rect x="209" y="157" width="8" height="4" fill="#4fd1c5" rx="1"/>
+<rect x="219" y="153" width="16" height="7" fill="#63b3ed" rx="1"/>
+<rect x="238" y="151" width="20" height="5" fill="#4fd1c5" rx="1"/>
+<rect x="241" y="157" width="16" height="4" fill="#48bb78" rx="1"/>
+<rect x="259" y="153" width="10" height="7" fill="#9ae6b4" rx="1"/>
+<rect x="270" y="151" width="24" height="5" fill="#48bb78" rx="1"/>
+<rect x="273" y="157" width="20" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="297" y="153" width="12" height="7" fill="#38a169" rx="1"/>
+<rect x="310" y="151" width="18" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="313" y="157" width="14" height="4" fill="#48bb78" rx="1"/>
+<rect x="329" y="153" width="22" height="7" fill="#2f855a" rx="1"/>
+<rect x="354" y="151" width="14" height="5" fill="#48bb78" rx="1"/>
+<rect x="357" y="157" width="10" height="4" fill="#2f855a" rx="1"/>
+<rect x="369" y="153" width="16" height="7" fill="#38a169" rx="1"/>
+<rect x="386" y="151" width="26" height="5" fill="#2f855a" rx="1"/>
+<rect x="389" y="157" width="22" height="4" fill="#63b3ed" rx="1"/>
+<rect x="415" y="153" width="10" height="7" fill="#48bb78" rx="1"/>
+<rect x="426" y="151" width="14" height="5" fill="#63b3ed" rx="1"/>
+<rect x="429" y="157" width="10" height="4" fill="#9ae6b4" rx="1"/>
+<rect x="441" y="153" width="14" height="7" fill="#4fd1c5" rx="1"/>
+<rect x="458" y="151" width="8" height="5" fill="#9ae6b4" rx="1"/>
+<rect x="461" y="157" width="4" height="4" fill="#38a169" rx="1"/>
+<rect x="467" y="153" width="12" height="7" fill="#48bb78" rx="1"/>
+<rect x="480" y="151" width="16" height="5" fill="#38a169" rx="1"/>
+<rect x="483" y="157" width="12" height="4" fill="#2f855a" rx="1"/>
+<rect x="499" y="153" width="20" height="7" fill="#e2e8f0" rx="1"/>
+<rect x="520" y="151" width="10" height="5" fill="#2f855a" rx="1"/>
+<rect x="523" y="157" width="6" height="4" fill="#38a169" rx="1"/>
+<rect x="531" y="153" width="24" height="7" fill="#48bb78" rx="1"/>
+<rect x="558" y="151" width="12" height="5" fill="#38a169" rx="1"/>
+<rect x="561" y="157" width="8" height="4" fill="#48bb78" rx="1"/>
+<rect x="571" y="153" width="18" height="7" fill="#2f855a" rx="1"/>
+<rect x="590" y="151" width="22" height="5" fill="#48bb78" rx="1"/>
+<rect x="593" y="157" width="18" height="4" fill="#4fd1c5" rx="1"/>
+<rect x="615" y="153" width="14" height="7" fill="#63b3ed" rx="1"/>
+<rect x="630" y="151" width="16" height="5" fill="#4fd1c5" rx="1"/>
+<rect x="633" y="157" width="12" height="4" fill="#48bb78" rx="1"/>
+<rect x="647" y="153" width="26" height="7" fill="#9ae6b4" rx="1"/>
+<rect x="676" y="151" width="10" height="5" fill="#48bb78" rx="1"/>
+<rect x="679" y="157" width="6" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="687" y="153" width="14" height="7" fill="#38a169" rx="1"/>
+<rect x="702" y="151" width="14" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="705" y="157" width="10" height="4" fill="#48bb78" rx="1"/>
+<rect x="719" y="153" width="8" height="7" fill="#2f855a" rx="1"/>
+<rect x="728" y="151" width="12" height="5" fill="#48bb78" rx="1"/>
+<rect x="731" y="157" width="8" height="4" fill="#2f855a" rx="1"/>
+<rect x="741" y="153" width="16" height="7" fill="#38a169" rx="1"/>
+<rect x="760" y="151" width="20" height="5" fill="#2f855a" rx="1"/>
+<rect x="763" y="157" width="16" height="4" fill="#63b3ed" rx="1"/>
+<rect x="781" y="153" width="10" height="7" fill="#48bb78" rx="1"/>
+<rect x="792" y="151" width="24" height="5" fill="#63b3ed" rx="1"/>
+<rect x="795" y="157" width="20" height="4" fill="#9ae6b4" rx="1"/>
+    <text x="40" y="188" class="body-text">I build software and AI-powered systems that solve real problems – and I can't stop.</text>
+    <text x="40" y="208" class="body-text">Obsessed with turning ideas into products and understanding everything from first principles.</text>
+    <!-- VISION -->
+    <text x="40" y="256" class="heading">VISION</text>
+<rect x="140" y="244" width="14" height="5" fill="#4fd1c5" rx="1"/>
+<rect x="143" y="250" width="10" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="157" y="246" width="8" height="7" fill="#63b3ed" rx="1"/>
+<rect x="166" y="244" width="12" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="169" y="250" width="8" height="4" fill="#2f855a" rx="1"/>
+<rect x="179" y="246" width="16" height="7" fill="#48bb78" rx="1"/>
+<rect x="198" y="244" width="20" height="5" fill="#2f855a" rx="1"/>
+<rect x="201" y="250" width="16" height="4" fill="#f6ad55" rx="1"/>
+<rect x="219" y="246" width="10" height="7" fill="#ed8936" rx="1"/>
+<rect x="230" y="244" width="24" height="5" fill="#f6ad55" rx="1"/>
+<rect x="233" y="250" width="20" height="4" fill="#38a169" rx="1"/>
+<rect x="257" y="246" width="12" height="7" fill="#e2e8f0" rx="1"/>
+<rect x="270" y="244" width="18" height="5" fill="#38a169" rx="1"/>
+<rect x="273" y="250" width="14" height="4" fill="#2f855a" rx="1"/>
+<rect x="289" y="246" width="22" height="7" fill="#48bb78" rx="1"/>
+<rect x="314" y="244" width="14" height="5" fill="#2f855a" rx="1"/>
+<rect x="317" y="250" width="10" height="4" fill="#63b3ed" rx="1"/>
+<rect x="329" y="246" width="16" height="7" fill="#4fd1c5" rx="1"/>
+<rect x="346" y="244" width="26" height="5" fill="#63b3ed" rx="1"/>
+<rect x="349" y="250" width="22" height="4" fill="#48bb78" rx="1"/>
+<rect x="375" y="246" width="10" height="7" fill="#e2e8f0" rx="1"/>
+<rect x="386" y="244" width="14" height="5" fill="#48bb78" rx="1"/>
+<rect x="389" y="250" width="10" height="4" fill="#ed8936" rx="1"/>
+<rect x="401" y="246" width="14" height="7" fill="#2f855a" rx="1"/>
+<rect x="418" y="244" width="8" height="5" fill="#ed8936" rx="1"/>
+<rect x="421" y="250" width="4" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="427" y="246" width="12" height="7" fill="#f6ad55" rx="1"/>
+<rect x="440" y="244" width="16" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="443" y="250" width="12" height="4" fill="#48bb78" rx="1"/>
+<rect x="459" y="246" width="20" height="7" fill="#38a169" rx="1"/>
+<rect x="480" y="244" width="10" height="5" fill="#48bb78" rx="1"/>
+<rect x="483" y="250" width="6" height="4" fill="#4fd1c5" rx="1"/>
+<rect x="491" y="246" width="24" height="7" fill="#2f855a" rx="1"/>
+<rect x="518" y="244" width="12" height="5" fill="#4fd1c5" rx="1"/>
+<rect x="521" y="250" width="8" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="531" y="246" width="18" height="7" fill="#63b3ed" rx="1"/>
+<rect x="550" y="244" width="22" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="553" y="250" width="18" height="4" fill="#2f855a" rx="1"/>
+<rect x="575" y="246" width="14" height="7" fill="#48bb78" rx="1"/>
+<rect x="590" y="244" width="16" height="5" fill="#2f855a" rx="1"/>
+<rect x="593" y="250" width="12" height="4" fill="#f6ad55" rx="1"/>
+<rect x="607" y="246" width="26" height="7" fill="#ed8936" rx="1"/>
+<rect x="636" y="244" width="10" height="5" fill="#f6ad55" rx="1"/>
+<rect x="639" y="250" width="6" height="4" fill="#38a169" rx="1"/>
+<rect x="647" y="246" width="14" height="7" fill="#e2e8f0" rx="1"/>
+<rect x="662" y="244" width="14" height="5" fill="#38a169" rx="1"/>
+<rect x="665" y="250" width="10" height="4" fill="#2f855a" rx="1"/>
+<rect x="679" y="246" width="8" height="7" fill="#48bb78" rx="1"/>
+<rect x="688" y="244" width="12" height="5" fill="#2f855a" rx="1"/>
+<rect x="691" y="250" width="8" height="4" fill="#63b3ed" rx="1"/>
+<rect x="701" y="246" width="16" height="7" fill="#4fd1c5" rx="1"/>
+<rect x="720" y="244" width="20" height="5" fill="#63b3ed" rx="1"/>
+<rect x="723" y="250" width="16" height="4" fill="#48bb78" rx="1"/>
+<rect x="741" y="246" width="10" height="7" fill="#e2e8f0" rx="1"/>
+<rect x="752" y="244" width="24" height="5" fill="#48bb78" rx="1"/>
+<rect x="755" y="250" width="20" height="4" fill="#ed8936" rx="1"/>
+<rect x="779" y="246" width="12" height="7" fill="#2f855a" rx="1"/>
+<rect x="792" y="244" width="18" height="5" fill="#ed8936" rx="1"/>
+<rect x="795" y="250" width="14" height="4" fill="#e2e8f0" rx="1"/>
+    <text x="40" y="281" class="body-text">My goal is to help people and push the world further ahead than it was yesterday.</text>
+    <text x="40" y="301" class="body-text">I want to be part of the generation that makes technology genuinely work for humans –</text>
+    <text x="40" y="321" class="body-text">not the other way around. Humanity first, technology second.</text>
+    <!-- BEYOND CODE -->
+    <text x="40" y="369" class="heading">BEYOND CODE</text>
+<rect x="205" y="357" width="14" height="5" fill="#ed8936" rx="1"/>
+<rect x="208" y="363" width="10" height="4" fill="#9ae6b4" rx="1"/>
+<rect x="222" y="359" width="8" height="7" fill="#f6ad55" rx="1"/>
+<rect x="231" y="357" width="12" height="5" fill="#9ae6b4" rx="1"/>
+<rect x="234" y="363" width="8" height="4" fill="#38a169" rx="1"/>
+<rect x="244" y="359" width="16" height="7" fill="#48bb78" rx="1"/>
+<rect x="263" y="357" width="20" height="5" fill="#38a169" rx="1"/>
+<rect x="266" y="363" width="16" height="4" fill="#ed8936" rx="1"/>
+<rect x="284" y="359" width="10" height="7" fill="#63b3ed" rx="1"/>
+<rect x="295" y="357" width="24" height="5" fill="#ed8936" rx="1"/>
+<rect x="298" y="363" width="20" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="322" y="359" width="12" height="7" fill="#f6ad55" rx="1"/>
+<rect x="335" y="357" width="18" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="338" y="363" width="14" height="4" fill="#48bb78" rx="1"/>
+<rect x="354" y="359" width="22" height="7" fill="#38a169" rx="1"/>
+<rect x="379" y="357" width="14" height="5" fill="#48bb78" rx="1"/>
+<rect x="382" y="363" width="10" height="4" fill="#f6ad55" rx="1"/>
+<rect x="394" y="359" width="16" height="7" fill="#ed8936" rx="1"/>
+<rect x="411" y="357" width="26" height="5" fill="#f6ad55" rx="1"/>
+<rect x="414" y="363" width="22" height="4" fill="#48bb78" rx="1"/>
+<rect x="440" y="359" width="10" height="7" fill="#9ae6b4" rx="1"/>
+<rect x="451" y="357" width="14" height="5" fill="#48bb78" rx="1"/>
+<rect x="454" y="363" width="10" height="4" fill="#63b3ed" rx="1"/>
+<rect x="466" y="359" width="14" height="7" fill="#38a169" rx="1"/>
+<rect x="483" y="357" width="8" height="5" fill="#63b3ed" rx="1"/>
+<rect x="486" y="363" width="4" height="4" fill="#f6ad55" rx="1"/>
+<rect x="492" y="359" width="12" height="7" fill="#ed8936" rx="1"/>
+<rect x="505" y="357" width="16" height="5" fill="#f6ad55" rx="1"/>
+<rect x="508" y="363" width="12" height="4" fill="#38a169" rx="1"/>
+<rect x="524" y="359" width="20" height="7" fill="#e2e8f0" rx="1"/>
+<rect x="545" y="357" width="10" height="5" fill="#38a169" rx="1"/>
+<rect x="548" y="363" width="6" height="4" fill="#ed8936" rx="1"/>
+<rect x="556" y="359" width="24" height="7" fill="#48bb78" rx="1"/>
+<rect x="583" y="357" width="12" height="5" fill="#ed8936" rx="1"/>
+<rect x="586" y="363" width="8" height="4" fill="#9ae6b4" rx="1"/>
+<rect x="596" y="359" width="18" height="7" fill="#f6ad55" rx="1"/>
+<rect x="615" y="357" width="22" height="5" fill="#9ae6b4" rx="1"/>
+<rect x="618" y="363" width="18" height="4" fill="#38a169" rx="1"/>
+<rect x="640" y="359" width="14" height="7" fill="#48bb78" rx="1"/>
+<rect x="655" y="357" width="16" height="5" fill="#38a169" rx="1"/>
+<rect x="658" y="363" width="12" height="4" fill="#ed8936" rx="1"/>
+<rect x="672" y="359" width="26" height="7" fill="#63b3ed" rx="1"/>
+<rect x="701" y="357" width="10" height="5" fill="#ed8936" rx="1"/>
+<rect x="704" y="363" width="6" height="4" fill="#e2e8f0" rx="1"/>
+<rect x="712" y="359" width="14" height="7" fill="#f6ad55" rx="1"/>
+<rect x="727" y="357" width="14" height="5" fill="#e2e8f0" rx="1"/>
+<rect x="730" y="363" width="10" height="4" fill="#48bb78" rx="1"/>
+<rect x="744" y="359" width="8" height="7" fill="#38a169" rx="1"/>
+<rect x="753" y="357" width="12" height="5" fill="#48bb78" rx="1"/>
+<rect x="756" y="363" width="8" height="4" fill="#f6ad55" rx="1"/>
+<rect x="766" y="359" width="16" height="7" fill="#ed8936" rx="1"/>
+<rect x="785" y="357" width="20" height="5" fill="#f6ad55" rx="1"/>
+<rect x="788" y="363" width="16" height="4" fill="#48bb78" rx="1"/>
+    <text x="40" y="394" class="body-text">Exploring emerging tech, competitive problem solving, fitness, and thinking differently –</text>
+    <text x="40" y="414" class="body-text">that's me outside of code.</text>
+</svg>
