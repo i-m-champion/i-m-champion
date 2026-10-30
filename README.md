@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner & Greeting (Hacker Terminal + Caveat Font Ayush) -->
-<img src="./assets/header.svg" width="100%" alt="Ayush // Cyberdeck" />
+<img src="./assets/header.svg" width="100%" alt="Hi there, I'm Ayush" />
 
 <!-- Dynamic Animated Typing Subtitle (Matrix Green) -->
 <a href="https://git.io/typing-svg">
@@ -32,7 +32,7 @@
 
 ---
 
-### 👨‍💻 [00] // WHOAMI & DIRECTIVE
+### 👨‍💻 About Me & Vision
 
 <div align="center">
   <img src="./assets/about.svg" width="100%" alt="About Ayush - Who I Am, What I Do, Vision, Beyond Code" />
@@ -40,7 +40,7 @@
 
 ---
 
-### 💻 [01] // SYSTEM_CAPABILITIES & TECH_STACK
+### 💻 Tech Stack & Skills
 
 <div align="center">
 
@@ -59,7 +59,7 @@
   <img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,firebase,redis,docker,vercel&theme=dark" alt="Databases and Cloud" />
 </p>
 
-#### 🔧 Developer Environment & Tools
+#### 🔧 Developer Tools & Environment
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux,figma,npm&theme=dark" alt="Tools" />
 </p>
@@ -68,19 +68,19 @@
 
 ---
 
-### 🧊 [02] // 3D_MATRIX_CONTRIBUTIONS
+### 🧊 3D Contribution Activity
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-green.svg">
-    <img src="./profile-3d-contrib/profile-night-green.svg" alt="Ayush's 3D Matrix Contribution Activity" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Ayush's 3D Contribution Activity" width="100%" />
   </picture>
 </div>
 
 ---
 
-### ⏱️ [03] // TELEMETRY & CODING_HABITS
+### ⏱️ Coding Habits & Weekly Activity
 
 <!--START_SECTION:waka-->
 ```text
@@ -119,7 +119,7 @@
 
 ---
 
-### 🔥 [04] // COMMIT_STREAK & VELOCITY
+### 🔥 Commit Streak & Activity
 
 <div align="center">
   <a href="https://github.com/i-m-champion">
@@ -129,7 +129,7 @@
 
 ---
 
-### 📊 [05] // GITHUB_METRICS
+### 📊 GitHub Overview & Metrics
 
 <div align="center">
   <img src="./github-metrics.svg" alt="Ayush's GitHub Metrics" width="480" />
@@ -137,7 +137,7 @@
 
 ---
 
-### 📬 [06] // ESTABLISH_UPLINK
+### 📬 Connect With Me
 
 <div align="center">
 
