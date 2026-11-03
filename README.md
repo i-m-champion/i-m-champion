@@ -120,24 +120,6 @@
 
 ---
 
-### 🔥 Commit Streak & Activity
-
-<div align="center">
-  <a href="https://github.com/i-m-champion">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=i-m-champion&theme=dark&hide_border=false&border_radius=14&border=00ff66&stroke=00ff66&ring=00ff66&fire=00ff66&currStreakNum=00ff66&sideNums=39ff14&sideLabels=86efac&dates=4ade80&background=070b07" alt="Ayush's GitHub Streak" width="500" />
-  </a>
-</div>
-
----
-
-### 📊 GitHub Overview & Metrics
-
-<div align="center">
-  <img src="./github-metrics.svg" alt="Ayush's GitHub Metrics" width="480" />
-</div>
-
----
-
 ### 📬 Connect With Me
 
 <div align="center">
