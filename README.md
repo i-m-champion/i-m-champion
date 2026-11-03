@@ -145,6 +145,7 @@
 <br/>
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=050805,0a140b,0d2818,10b981,00ff66&height=100&section=footer" width="100%" alt="Footer Banner" />
+<!-- Retro Pixel Art Arcade Scene (Game Over) -->
+<img src="./assets/footer-game-over.svg" width="100%" alt="Game Over Pixel Art" />
 
 </div>
