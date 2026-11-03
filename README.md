@@ -132,6 +132,14 @@
 
 ---
 
+### 🛸 Sentinel Recon Drone
+
+<div align="center">
+  <img src="./assets/sentinel-drone.svg" width="100%" alt="Ayush's Sentinel Recon Drone" />
+</div>
+
+---
+
 ### 📬 Connect With Me
 
 <div align="center">
