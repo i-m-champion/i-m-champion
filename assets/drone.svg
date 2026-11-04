@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="160">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="drone-pond-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050805" />
+      <stop offset="50%" stop-color="#08140a" />
+      <stop offset="100%" stop-color="#050805" />
+    </linearGradient>
+
+    <!-- Matrix Scanline Pattern -->
+    <pattern id="pond-scanlines" width="80" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="80" y2="0" stroke="#00ff66" stroke-opacity="0.035" stroke-width="1" />
+    </pattern>
+
+    <!-- Neon Glow Filter -->
+    <filter id="koi-neon-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#00ff66" flood-opacity="0.9" />
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#10b981" flood-opacity="0.6" />
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#39ff14" flood-opacity="0.3" />
+    </filter>
+
+    <!-- Soft Ambient Ripple Glow -->
+    <filter id="ripple-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#00ff66" flood-opacity="0.5" />
+    </filter>
+
+    <style>
+      /* Main Gliding Path Across Pond (Smooth Figure-8 Swimming) */
+      @keyframes swim-glide {
+        0% {
+          transform: translate(140px, 80px) rotate(-6deg);
+        }
+        25% {
+          transform: translate(320px, 64px) rotate(8deg);
+        }
+        50% {
+          transform: translate(520px, 94px) rotate(-4deg);
+        }
+        75% {
+          transform: translate(680px, 72px) rotate(6deg);
+        }
+        100% {
+          transform: translate(140px, 80px) rotate(-6deg);
+        }
+      }
+
+      /* Undulating Spine Wave Physics */
+      @keyframes wave-seg-1 {
+        0%, 100% { transform: rotate(-5deg); }
+        50% { transform: rotate(5deg); }
+      }
+      @keyframes wave-seg-2 {
+        0%, 100% { transform: rotate(7deg); }
+        50% { transform: rotate(-7deg); }
+      }
+      @keyframes wave-seg-3 {
+        0%, 100% { transform: rotate(-10deg); }
+        50% { transform: rotate(10deg); }
+      }
+      @keyframes wave-tail {
+        0%, 100% { transform: rotate(16deg); }
+        50% { transform: rotate(-16deg); }
+      }
+
+      /* Fluttering Pectoral Fins */
+      @keyframes fin-flutter-top {
+        0%, 100% { transform: rotate(-14deg) scaleY(0.9); }
+        50% { transform: rotate(18deg) scaleY(1.1); }
+      }
+      @keyframes fin-flutter-bot {
+        0%, 100% { transform: rotate(14deg) scaleY(0.9); }
+        50% { transform: rotate(-18deg) scaleY(1.1); }
+      }
+
+      /* Pulsing Energy Ripples */
+      @keyframes ripple-expand-1 {
+        0% { r: 4px; opacity: 0.8; stroke-width: 1.5px; }
+        100% { r: 65px; opacity: 0; stroke-width: 0.4px; }
+      }
+      @keyframes ripple-expand-2 {
+        0% { r: 4px; opacity: 0.8; stroke-width: 1.5px; }
+        100% { r: 65px; opacity: 0; stroke-width: 0.4px; }
+      }
+      @keyframes ripple-expand-3 {
+        0% { r: 4px; opacity: 0.8; stroke-width: 1.5px; }
+        100% { r: 65px; opacity: 0; stroke-width: 0.4px; }
+      }
+
+      /* Matrix Dust Twinkle */
+      @keyframes particle-twinkle {
+        0%, 100% { opacity: 0.2; transform: translateY(0px); }
+        50% { opacity: 0.85; transform: translateY(-4px); }
+      }
+
+      .swimmer-group {
+        animation: swim-glide 14s ease-in-out infinite;
+      }
+
+      .seg-1 {
+        animation: wave-seg-1 1.6s ease-in-out infinite;
+        transform-origin: 0px 0px;
+      }
+      .seg-2 {
+        animation: wave-seg-2 1.6s ease-in-out infinite 0.2s;
+        transform-origin: -24px 0px;
+      }
+      .seg-3 {
+        animation: wave-seg-3 1.6s ease-in-out infinite 0.4s;
+        transform-origin: -48px 0px;
+      }
+      .tail-fin {
+        animation: wave-tail 1.6s ease-in-out infinite 0.6s;
+        transform-origin: -72px 0px;
+      }
+
+      .fin-top {
+        animation: fin-flutter-top 1.6s ease-in-out infinite;
+        transform-origin: -6px -8px;
+      }
+      .fin-bot {
+        animation: fin-flutter-bot 1.6s ease-in-out infinite;
+        transform-origin: -6px 8px;
+      }
+
+      .rip-1 { animation: ripple-expand-1 4s linear infinite; }
+      .rip-2 { animation: ripple-expand-2 4s linear infinite 1.33s; }
+      .rip-3 { animation: ripple-expand-3 4s linear infinite 2.66s; }
+
+      .dust-p { animation: particle-twinkle 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="850" height="160" rx="14" fill="url(#drone-pond-bg)" stroke="#16381e" stroke-width="1.4" />
+  <rect width="850" height="160" rx="14" fill="url(#pond-scanlines)" />
+
+  <!-- Subtle Ambient Coordinate Points in Background -->
+  <g opacity="0.2" fill="#00ff66">
+    <circle cx="120" cy="40" r="1.2" />
+    <circle cx="240" cy="120" r="1.2" />
+    <circle cx="380" cy="35" r="1.2" />
+    <circle cx="500" cy="130" r="1.2" />
+    <circle cx="640" cy="45" r="1.2" />
+    <circle cx="760" cy="115" r="1.2" />
+    <circle cx="180" cy="135" r="1.2" />
+    <circle cx="320" cy="50" r="1.2" />
+    <circle cx="460" cy="110" r="1.2" />
+    <circle cx="600" cy="30" r="1.2" />
+    <circle cx="720" cy="125" r="1.2" />
+  </g>
+
+  <!-- Ambient Energy Ripples Pulsing in Pond -->
+  <g filter="url(#ripple-glow)">
+    <circle cx="260" cy="75" r="4" stroke="#00ff66" fill="none" class="rip-1" />
+    <circle cx="480" cy="85" r="4" stroke="#00ff66" fill="none" class="rip-2" />
+    <circle cx="620" cy="70" r="4" stroke="#00ff66" fill="none" class="rip-3" />
+  </g>
+
+  <!-- THE CYBER SWIMMER (Drone Organism) -->
+  <g class="swimmer-group">
+    <g filter="url(#koi-neon-glow)">
+
+      <!-- Pectoral Fins (Top & Bottom Wing Flutter) -->
+      <g class="fin-top">
+        <path d="M -6,-8 Q 12,-36 32,-32 Q 22,-14 2,-6 Z" fill="rgba(0, 255, 102, 0.28)" stroke="#00ff66" stroke-width="1.5" />
+        <!-- Fin vein ribs -->
+        <line x1="-2" y1="-8" x2="24" y2="-28" stroke="#86efac" stroke-width="1" stroke-opacity="0.7" />
+        <line x1="2" y1="-7" x2="16" y2="-22" stroke="#86efac" stroke-width="1" stroke-opacity="0.7" />
+      </g>
+      <g class="fin-bot">
+        <path d="M -6,8 Q 12,36 32,32 Q 22,14 2,6 Z" fill="rgba(0, 255, 102, 0.28)" stroke="#00ff66" stroke-width="1.5" />
+        <!-- Fin vein ribs -->
+        <line x1="-2" y1="8" x2="24" y2="28" stroke="#86efac" stroke-width="1" stroke-opacity="0.7" />
+        <line x1="2" y1="7" x2="16" y2="22" stroke="#86efac" stroke-width="1" stroke-opacity="0.7" />
+      </g>
+
+      <!-- Head & Core Sensory Unit -->
+      <!-- Outer streamlined head -->
+      <path d="M 26,0 C 26,-9 14,-14 0,-14 C -12,-14 -22,-10 -22,0 C -22,10 -12,14 0,14 C 14,14 26,9 26,0 Z" 
+            fill="#0c190f" 
+            stroke="#00ff66" 
+            stroke-width="2" />
+
+      <!-- Head Core Sensor Armor Plate -->
+      <path d="M 18,0 C 18,-6 8,-9 0,-9 C -8,-9 -14,-6 -14,0 C -14,6 -8,9 0,9 C 8,9 18,6 18,0 Z" 
+            fill="#122a18" 
+            stroke="#39ff14" 
+            stroke-width="1.2" />
+
+      <!-- Sensory Optical Eyes (Dual Neon Cyber Lenses) -->
+      <circle cx="14" cy="-8" r="2.5" fill="#ffffff" stroke="#00ff66" stroke-width="1" />
+      <circle cx="14" cy="8" r="2.5" fill="#ffffff" stroke="#00ff66" stroke-width="1" />
+
+      <!-- Forward Cybernetic Whisker Antennae -->
+      <path d="M 24,-4 Q 38,-9 46,-12" fill="none" stroke="#86efac" stroke-width="1.4" stroke-linecap="round" />
+      <path d="M 24,4 Q 38,9 46,12" fill="none" stroke="#86efac" stroke-width="1.4" stroke-linecap="round" />
+
+      <!-- Central Pulsing Power Core -->
+      <circle cx="2" cy="0" r="4.5" fill="#ffffff" />
+      <circle cx="2" cy="0" r="7" fill="none" stroke="#00ff66" stroke-width="1.2" stroke-dasharray="2 2" />
+
+      <!-- SECTION 1: Mid-Thorax Segment (Undulates) -->
+      <g class="seg-1">
+        <ellipse cx="-18" cy="0" rx="11" ry="11.5" fill="#0d2012" stroke="#00ff66" stroke-width="1.8" />
+        <!-- Circuit Node Ribs -->
+        <line x1="-18" y1="-10" x2="-18" y2="10" stroke="#39ff14" stroke-width="1.2" />
+        <circle cx="-18" cy="0" r="2" fill="#86efac" />
+
+        <!-- SECTION 2: Rear-Abdomen Segment -->
+        <g class="seg-2">
+          <ellipse cx="-36" cy="0" rx="9" ry="8.5" fill="#0a180e" stroke="#00ff66" stroke-width="1.6" />
+          <line x1="-36" y1="-7" x2="-36" y2="7" stroke="#39ff14" stroke-width="1" />
+          
+          <!-- Dorsal Mini Fin -->
+          <path d="M -34,-8 Q -40,-18 -46,-12 Q -42,-8 -38,-7 Z" fill="rgba(0,255,102,0.3)" stroke="#00ff66" stroke-width="1.2" />
+          <path d="M -34,8 Q -40,18 -46,12 Q -42,8 -38,7 Z" fill="rgba(0,255,102,0.3)" stroke="#00ff66" stroke-width="1.2" />
+
+          <!-- SECTION 3: Caudal Peduncle (Pre-Tail Joint) -->
+          <g class="seg-3">
+            <ellipse cx="-52" cy="0" rx="7" ry="5.5" fill="#08120b" stroke="#00ff66" stroke-width="1.4" />
+            <ellipse cx="-64" cy="0" rx="5" ry="3.5" fill="#060e08" stroke="#39ff14" stroke-width="1.2" />
+
+            <!-- TAIL FIN (Flowing Wide Caudal Ribbons) -->
+            <g class="tail-fin">
+              <!-- Main Translucent Fan Blade Fin -->
+              <path d="M -68,0 Q -86,-24 -112,-28 Q -98,-6 -118,0 Q -98,6 -112,28 Q -86,24 -68,0 Z" 
+                    fill="rgba(0, 255, 102, 0.32)" 
+                    stroke="#00ff66" 
+                    stroke-width="1.6" />
+
+              <!-- Inner Glow Feather Lines -->
+              <path d="M -68,0 Q -88,-16 -106,-18" fill="none" stroke="#86efac" stroke-width="1.2" />
+              <path d="M -68,0 Q -92,0 -112,0" fill="none" stroke="#ffffff" stroke-width="1.5" />
+              <path d="M -68,0 Q -88,16 -106,18" fill="none" stroke="#86efac" stroke-width="1.2" />
+
+              <!-- Trailing Micro Energy Sparkles -->
+              <circle cx="-122" cy="-8" r="1.5" fill="#00ff66" />
+              <circle cx="-126" cy="0" r="2" fill="#ffffff" />
+              <circle cx="-122" cy="8" r="1.5" fill="#00ff66" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -145,6 +145,12 @@
 <br/>
 <br/>
 
+<!-- Drone Swimmer (Spot B) -->
+<img src="./assets/drone.svg" width="100%" alt="Drone" />
+
+<br/>
+<br/>
+
 <!-- Retro Pixel Art Arcade Scene (Game Over) -->
 <img src="./assets/footer-game-over.svg" width="100%" alt="Game Over Pixel Art" />
 
