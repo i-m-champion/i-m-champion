@@ -92,6 +92,14 @@
 
 ---
 
+### 📊 Activity Overview
+
+<div align="center">
+  <img src="./assets/activity-overview.svg" width="100%" alt="Ayush's Activity Overview" />
+</div>
+
+---
+
 ### ⏱️ Coding Habits & Weekly Activity
 
 <!--START_SECTION:waka-->
