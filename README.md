@@ -42,29 +42,29 @@
 
 ### 💻 Tech Stack & Skills
 
-<div align="center">
+<img align="right" src="./assets/tech-side.svg" width="290" alt="Coder on Hill" />
 
 #### 🌐 Languages
-<p align="center">
+<p align="left">
   <img src="https://skillicons.dev/icons?i=typescript,javascript,python,cpp,c,html,css,bash&theme=dark" alt="Languages" />
 </p>
 
 #### ⚡ Frameworks & Libraries
-<p align="center">
+<p align="left">
   <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,express,tailwind,redux,fastapi,vite&theme=dark" alt="Frameworks" />
 </p>
 
 #### 🗄️ Databases & Cloud Infrastructure
-<p align="center">
+<p align="left">
   <img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,firebase,redis,docker,vercel&theme=dark" alt="Databases and Cloud" />
 </p>
 
 #### 🔧 Developer Tools & Environment
-<p align="center">
+<p align="left">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux,figma,npm&theme=dark" alt="Tools" />
 </p>
 
-</div>
+<br clear="all" />
 
 ---
 
