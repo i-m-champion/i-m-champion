@@ -20,6 +20,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Apply Aesthetic Colors to Language Donut Graph
+        run: |
+          python3 scripts/customize_3d_colors.py
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
