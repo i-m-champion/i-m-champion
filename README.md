@@ -96,14 +96,6 @@
 
 <!--START_SECTION:waka-->
 ```text
-┌──[ root@telemetry:~/github_data ]
-│
-├── 💾 Storage Allocated:   0.0 kB
-├── 🏆 Annual Contributions: 136 in 2026
-├── ⚡ Status:               Active Builder / Hacker Mode
-├── 📦 Public Repositories:  8
-└── 🔒 Private Enclaves:     0
-
 ┌──[ Productivity Cycle // Night Owl 🦉 ]
 │
 ├── 🌞 Morning      34 commits   ███▒▒▒▒▒▒▒▒▒▒▒   22.97 %

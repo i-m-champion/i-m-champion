@@ -115,14 +115,6 @@ def update_readme():
     top_lang = sorted_langs[0][0] if sorted_langs else "Code"
 
     out = []
-    out.append("┌──[ root@telemetry:~/github_data ]")
-    out.append("│")
-    out.append(f"├── 💾 Storage Allocated:   {storage_str}")
-    out.append(f"├── 🏆 Annual Contributions: {total_contribs} in 2026")
-    out.append(f"├── ⚡ Status:               Active Builder / Hacker Mode")
-    out.append(f"├── 📦 Public Repositories:  {public_repos}")
-    out.append(f"└── 🔒 Private Enclaves:     {private_repos}\n")
-
     out.append(f"┌──[ Productivity Cycle // {early_or_night} ]")
     out.append("│")
     icons = {"Morning": "🌞", "Daytime": "🌆", "Evening": "🌃", "Night": "🌙"}
